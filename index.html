@@ -5,34 +5,50 @@
   <meta charset="UTF-8">
   <title>Big Rock</title>
   <link rel="stylesheet" href="assets/css/bootstrap.css">
+  <link rel="stylesheet" href="assets/css/base.css">
 </head>
 
 <body>
-  <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-7">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#">Brand</a>
-    </div>
+  <nav class="navbar navbar-default navbar-fixed-top br-nav" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#br-navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">
+          <img class="logo" src="assets/img/BR-logo.png" alt="Big Rock">
+        </a>
+      </div>
 
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-7">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Home</a>
-        </li>
-        <li><a href="#">Link</a>
-        </li>
-        <li><a href="#">Link</a>
-        </li>
-      </ul>
+      <div class="collapse navbar-collapse" id="br-navbar">
+        <ul class="nav navbar-nav pull-right">
+          <li class="active"><a href="#">Home</a>
+          </li>
+          <li><a href="#">Link</a>
+          </li>
+          <li><a href="#">Link</a>
+          </li>
+        </ul>
+      </div>
     </div>
-    <!-- /.navbar-collapse -->
   </nav>
+
+
+  <div class="br-jumbotron orange-bg">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1>India's #1 destination for Websites</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
   <script src="assets/js/jquery.js"></script>
   <script src="assets/js/bootstrap.min.js"></script>
 </body>
