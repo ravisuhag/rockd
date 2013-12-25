@@ -98,3 +98,46 @@
   box-shadow: 0 0 3px rgba(0,0,0,0.15);
   transition-duration:0.2s;
 }
+
+/*-------------------[ Domain Register : Search Bar ]------------------*/
+.domain-search{
+  padding: 40px 0;
+  background-color: #eee;
+  background-image: url('../img/noise.png');
+  border-bottom:solid 1px #ddd;
+}
+.search-wrap{
+  max-width: 500px;
+  margin:0 auto;
+}
+.domain-box{
+  padding:10px;
+  border-bottom: dashed 1px #ddd;
+  font-size: 20px;
+  color: rgb(101, 107, 108);  
+}
+.domain-box img {
+  width: 50px;
+  padding-right:10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
