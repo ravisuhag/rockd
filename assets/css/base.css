@@ -44,3 +44,55 @@ body{
 .yellow-bg{
 	background-color: rgb(250, 201, 74);
 }
+
+/*-------------------[ Helper Classes ]------------------*/
+.m-t-10{
+	margin-top: 10px;
+}
+.m-t-20{
+	margin-top: 20px;
+}
+.m-t-30{
+	margin-top: 30px;
+}
+.m-t-40{
+	margin-top: 40px;
+}
+.p-10{
+	padding: 10px;
+}
+.p-20{
+	padding: 20px;
+}
+.p-30{
+	padding: 30px;
+}
+
+
+/*-------------------[ Headings ]------------------*/
+.mainheading{
+	font-size: 38px;
+	font-weight: normal;
+	color: rgb(101, 107, 108);
+	font-family: Lucida Grande;
+	margin-top: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

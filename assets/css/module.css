@@ -1,26 +1,24 @@
-.br-nav{
-	background: #f5f5f5;
-	border-bottom: 1px solid #f0f0f0;
-	color: #444;
-	padding: 10px;
-	box-shadow:0 2px 12px rgba(0, 0, 0, 0.3);
+/*-------------------[ Top Navbar ]------------------*/
+ .br-nav {
+  background: #f5f5f5;
+  border-bottom: 1px solid rgb(215, 104, 22);
+  color: #444;
+  padding: 10px;
+  box-shadow:0 2px 12px rgba(0, 0, 0, 0);
 }
-.br-nav .navbar-brand{
-  padding: 0px;
+.br-nav .navbar-brand {
+  padding: 0;
 }
-.br-nav .logo{
-  height: 60px
+.br-nav .logo {
+  height: 55px
 }
 .br-nav .navbar-nav > li > a {
   color: #E85272;
 }
-.br-nav .navbar-nav > li > a:hover,
-.br-nav .navbar-nav > li > a:focus  {
+.br-nav .navbar-nav > li > a:hover, .br-nav .navbar-nav > li > a:focus {
   color: #78a30B;
 }
-.br-nav .navbar-nav > .active > a,
-.br-nav .navbar-nav > .active > a:hover,
-.br-nav .navbar-nav > .active > a:focus {
+.br-nav .navbar-nav > .active > a, .br-nav .navbar-nav > .active > a:hover, .br-nav .navbar-nav > .active > a:focus {
   color: #78a30B;
   background-color: transparent;
 }
@@ -32,8 +30,64 @@
   border-color: #f5f5f5;
 }
 .br-nav .navbar-toggle .icon-bar {
-	background-color: #E85272;
+  background-color: #E85272;
 }
 .br-nav .navbar-toggle:hover .icon-bar {
-	background-color: #c83252;
+  background-color: #c83252;
 }
+/*-------------------[ Jumbotron ]------------------*/
+ .br-jumbotron {
+  min-height: 300px;
+  background-image: url(../img/noise.png);
+  padding: 20px 0;
+  text-align: center;
+  color: #fff;
+}
+.br-jumbotron .heading {
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.8);
+  font-size: 55px;
+  color:#eee;
+  padding-top: 35px;
+  padding-bottom: 10px;
+}
+.br-jumbotron span {
+  color: #333;
+  font-size: 24px;
+}
+.search-box .wrap {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 500px;
+  padding: 40px 0 20px;
+}
+.search-box .wrap input {
+  border:solid 2px rgb(185, 74, 2);
+  height: 55PX;
+  box-shadow: none;
+  border-radius: 10px;
+  font-size: 22px;
+  font-weight: 200;
+  letter-spacing:1px;
+  border-right: 0px
+}
+.search-box .wrap input:focus {
+  -webkit-box-shadow:none;
+  box-shadow: none;
+}
+.search-box .wrap button {
+  height: 55px;
+  border:solid 2px rgb(185, 74, 2);
+  border-left: solid 1px #eee;
+  border-radius: 10px;
+  border-bottom-left-radius: 2px !important;
+  border-top-left-radius: 2px 2px !important;
+  min-width: 100px
+}
+
+
+/*-------------------[ Home Products ]------------------*/
+.home-products{
+  margin-top: 40px;
+}
+
+
