@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" ng-app="BigRock">
 
 <head>
   <meta charset="UTF-8">
@@ -103,11 +103,15 @@
 
     </div>
   </div>
-
+  <div ng-controller="homeCtrl">
+    {{welcome}}
+  </div>
 
 
   <script src="assets/js/jquery.js"></script>
   <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/angular.min.js"></script>
+  <script src="assets/js/angular-route.min.js"></script>
+  <script src="app/app.js"></script>
 </body>
-
 </html>
