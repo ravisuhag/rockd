@@ -1,12 +1,5 @@
 var bigrock = angular.module('BigRock', ['ngRoute']);
 
-bigrock.controller('homeCtrl', ['$scope',
-  function($scope) {
-
-    $scope.welcome = "Hello to Big Rock";
-
-}]);
-
 bigrock.config(['$routeProvider', '$locationProvider',
   function($routeProvider, $locationProvider) {
 
