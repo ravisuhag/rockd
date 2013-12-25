@@ -3,4 +3,6 @@ bigrock.controller('homeCtrl', ['$scope',
 
     $scope.welcome = "Hello to Big Rock";
 
+    angular.element('.selectpicker').selectpicker();
+
 }]);
