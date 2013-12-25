@@ -1,10 +1,11 @@
 .content-box{
 	border-radius: 6px;
 	border:solid 1px #ddd;
-	min-height: 200px;
-	padding: 15px
+	min-height: 250px;
+	padding: 15px;
+	background-image: url('../img/noise.png');
 }
-/*.content-box:hover{
+.content-box:hover{
 	box-shadow: 0 0 3px rgba(0,0,0,0.15);
 	transition-duration:0.2s;
-}*/
+}
