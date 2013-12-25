@@ -9,3 +9,23 @@
 	box-shadow: 0 0 3px rgba(0,0,0,0.15);
 	transition-duration:0.2s;
 }
+
+/*-------------------[ Jumbotron ]------------------*/
+ .br-jumbotron {
+  min-height: 300px;
+  background-image: url(../img/noise.png);
+  padding: 20px 0;
+  text-align: center;
+  color: #fff;
+}
+.br-jumbotron .heading {
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.8);
+  font-size: 55px;
+  color:#eee;
+  padding-top: 35px;
+  padding-bottom: 10px;
+}
+.br-jumbotron span {
+  color: #333;
+  font-size: 24px;
+}
