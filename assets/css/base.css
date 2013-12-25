@@ -2,97 +2,74 @@
 		Author: Ravi Suhag
 		Created on 19 Dec 2013
 -------------------------------------*/
-
-@import url('layout.css');
-@import url('module.css');
+ @import url('layout.css');
+ @import url('module.css');
 
 /*-------------------[ Global Rules ]------------------*/
-body{
-	margin-top: 50px
+ body {
+  margin-top: 72px
 }
-
-
-
 /*-------------------[ Brand Colors ]------------------*/
-.orange-text{
-	color: rgb(245, 134, 52);
+ .orange-text {
+  color: rgb(245, 134, 52);
 }
-.darkgrey-text{
-	color: rgb(101, 107, 108);
+.darkgrey-text {
+  color: rgb(101, 107, 108);
 }
-.green-text{
-	color: rgb(106, 151,63);
+.green-text {
+  color: rgb(106, 151, 63);
 }
-.lightgrey-text{
-	color: rgb(137, 139, 141);
+.lightgrey-text {
+  color: rgb(137, 139, 141);
 }
-.yellow-text{
-	color: rgb(250, 201, 74);
+.yellow-text {
+  color: rgb(250, 201, 74);
 }
-.orange-bg{
-	background-color: rgb(245, 134, 52);
+.orange-bg {
+  background-color: rgb(245, 134, 52);
 }
-.darkgrey-bg{
-	background-color: rgb(101, 107, 108);
+.darkgrey-bg {
+  background-color: rgb(101, 107, 108);
 }
-.green-bg{
-	background-color: rgb(106, 151,63);
+.green-bg {
+  background-color: rgb(106, 151, 63);
 }
-.lightgrey-bg{
-	background-color: rgb(137, 139, 141);
+.lightgrey-bg {
+  background-color: rgb(137, 139, 141);
 }
-.yellow-bg{
-	background-color: rgb(250, 201, 74);
+.yellow-bg {
+  background-color: rgb(250, 201, 74);
 }
-
 /*-------------------[ Helper Classes ]------------------*/
-.m-t-10{
-	margin-top: 10px;
+ .m-t-10 {
+  margin-top: 10px;
 }
-.m-t-20{
-	margin-top: 20px;
+.m-t-20 {
+  margin-top: 20px;
 }
-.m-t-30{
-	margin-top: 30px;
+.m-t-30 {
+  margin-top: 30px;
 }
-.m-t-40{
-	margin-top: 40px;
+.m-t-40 {
+  margin-top: 40px;
 }
-.p-10{
-	padding: 10px;
+.p-10 {
+  padding: 10px;
 }
-.p-20{
-	padding: 20px;
+.p-20 {
+  padding: 20px;
 }
-.p-30{
-	padding: 30px;
+.p-t-40 {
+  padding: 40px;
 }
-
-
+.p-30 {
+  padding: 30px;
+}
 /*-------------------[ Headings ]------------------*/
-.mainheading{
-	font-size: 38px;
-	font-weight: normal;
-	color: rgb(101, 107, 108);
-	font-family: Lucida Grande;
-	margin-top: 0;
+ .mainheading {
+  font-size: 38px;
+  font-weight: normal;
+  color: rgb(101, 107, 108);
+  font-family: Lucida Grande;
+  margin-top: 0;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

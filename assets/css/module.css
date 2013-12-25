@@ -35,9 +35,9 @@
 .br-nav .navbar-toggle:hover .icon-bar {
   background-color: #c83252;
 }
-/*-------------------[ Jumbotron ]------------------*/
+/*-------------------[ Home: Jumbotron ]------------------*/
  .br-jumbotron {
-  min-height: 300px;
+  min-height: 100px;
   background-image: url(../img/noise-o.png);
   padding: 20px 0;
   text-align: center;
@@ -47,7 +47,7 @@
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.8);
   font-size: 55px;
   color:#eee;
-  padding-top: 35px;
+  padding-top: 5px;
   padding-bottom: 10px;
 }
 .br-jumbotron span {
@@ -83,7 +83,18 @@
   border-top-left-radius: 2px 2px !important;
   min-width: 100px
 }
-/*-------------------[ Home Products ]------------------*/
+/*-------------------[ Home : Products ]------------------*/
  .home-products {
   margin-top: 40px;
+}
+.home-box{
+  border-radius: 6px;
+  border:solid 1px #ddd;
+  min-height: 250px;
+  padding: 15px;
+  background-image: url('../img/noise.png');
+}
+.home-box:hover{
+  box-shadow: 0 0 3px rgba(0,0,0,0.15);
+  transition-duration:0.2s;
 }

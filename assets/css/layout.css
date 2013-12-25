@@ -1,31 +1,136 @@
 .content-box{
 	border-radius: 6px;
 	border:solid 1px #ddd;
-	min-height: 250px;
-	padding: 15px;
-	background-image: url('../img/noise.png');
-}
-.content-box:hover{
-	box-shadow: 0 0 3px rgba(0,0,0,0.15);
-	transition-duration:0.2s;
+	min-height: 50px;
 }
 
-/*-------------------[ Jumbotron ]------------------*/
- .br-jumbotron {
-  min-height: 300px;
-  background-image: url(../img/noise.png);
-  padding: 20px 0;
-  text-align: center;
-  color: #fff;
+/*-------------------[ Sidebar ]-------------------------*/
+
+.sidebar{
+	margin-bottom: 20px;
+	border: solid 1px #ddd;
+	border-radius: 4px
 }
-.br-jumbotron .heading {
-  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.8);
-  font-size: 55px;
-  color:#eee;
-  padding-top: 35px;
-  padding-bottom: 10px;
+.sidebar .cart-wrap{
+	background: url('../img/bg.jpeg') no-repeat center;
+	background-size: cover;
+	padding: 19px;
+	text-align: center;
+	font-size: 80px;
+	line-height: 80px;
+	color: #fff;
+	text-shadow:0px 2px 2px rgba(0,0,0,0.4);
 }
-.br-jumbotron span {
-  color: #333;
-  font-size: 24px;
+
+.sidebar .name{
+	display: block;
+	font-size: 25px;
+	text-align: center;
+	padding-top: 10px;
+	color: #d43f3a;
 }
+.sidebar .striped .strip-unlinked{
+	border-top:solid 1px #efefef; 
+	padding:10px 14px;
+	font-size: 15px;
+	color: #8e8071;
+	margin-top: 0;
+}
+.sidebar .striped li{
+	margin-top: 0;
+}
+.sidebar .striped li.active a,
+.sidebar .striped li.active:hover a{
+	margin-top: 0;
+	color: #5e5041;
+	background-color:#efefef;
+}
+.sidebar .striped li:hover a{
+	background-color:#fafafa;
+}
+.sidebar .striped li a{
+	border-top:solid 1px #efefef; 
+	padding:10px 14px;
+	font-size: 15px;
+	color: #8e8071;
+	border-radius: 0;
+	margin-top: 0;
+}
+.sidebar .strip-footer{
+	padding: 15px 14px;
+	background-color: #f8f3f0;
+	display: block;
+	border-top:solid 1px #efefef; 
+}
+
+/*-------------------[ Mainbar ]-------------------------*/
+
+.dash-main .h-header{
+	padding: 15px 14px;
+	background-color: #f8f3f0;
+	display: block;
+	border-bottom:solid 1px #eaeaea;
+	font-size: 20px;
+	color:#5e5041;
+}
+.dash-main .h-strip-header{
+	background-color: #f8f3f0;
+	border-bottom:solid 1px #efefef; 
+	height: auto;
+}
+.dash-main .h-strip-header th{
+	padding: 15px 14px;
+	font-size: 18px;
+	color: #d43f3a
+}
+.dash-main .table tr >td{
+	padding:14px;
+
+}
+.dash-main .h-strip-footer{
+	padding: 15px 14px;
+	background-color: #f5f5f5;
+	display: block;
+	border-top:solid 1px #efefef;
+}
+.dash-main .pagination{
+	padding:0;
+	margin: 0;
+}
+
+
+/*-------------------[ Filter pills ]-------------------------*/
+.filter-pills{
+	margin-bottom: 20px
+}
+.filter-pills > li{
+	margin-right: 10px;
+	min-width: 130px;
+	text-align: center;
+}
+ .filter-pills > li > a{
+ 	background-color: #eee;
+ 	color: #777;
+ 	border:solid 1px #ddd;
+ }
+  .filter-pills > li >a:hover{
+ 	background-color: #ddd;
+ 	color: #777;
+ 	border:solid 1px #ddd;
+ }
+ .filter-pills > li.active > a
+  {
+ 	background-color: #d9534f;
+ 	border:solid 1px #d43f3a;
+ }
+ .filter-pills > li.active > a:hover{
+ 	background-color: #c9433f;
+ }
+ .filter-pills .selectpicker{
+	 padding: 10px 15px;
+	 font-size:16px
+}
+
+
+
+
