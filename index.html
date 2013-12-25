@@ -10,6 +10,7 @@
 
 <body>
   <ng-include src="'app/views/navbar.html'"></ng-include>
+  
 
   <div class="br-jumbotron orange-bg">
     <div class="container">
@@ -77,10 +78,7 @@
 
     </div>
   </div>
-  <div ng-controller="homeCtrl">
-    {{welcome}}
-  </div>
-
+  <ng-view></ng-view>
 
   <script src="assets/js/jquery.js"></script>
   <script src="assets/js/bootstrap.min.js"></script>
