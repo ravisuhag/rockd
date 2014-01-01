@@ -5,4 +5,8 @@ bigrock.controller('homeCtrl', ['$scope',
 
     angular.element('.selectpicker').selectpicker();
 
+    $scope.formsubmit = function() {
+      console.log("calling ucntuon");
+    };
+
 }]);

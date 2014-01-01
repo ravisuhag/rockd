@@ -1,6 +1,6 @@
-/*-------------------------------------	
-		Author: Ravi Suhag
-		Created on 19 Dec 2013
+/*------------------------------------- 
+    Author: Ravi Suhag
+    Created on 19 Dec 2013
 -------------------------------------*/
  @import url('layout.css');
  @import url('module.css');
@@ -59,11 +59,11 @@
 .p-20 {
   padding: 20px;
 }
-.p-t-40 {
-  padding: 40px;
-}
 .p-30 {
   padding: 30px;
+}
+.p-t-40 {
+  padding: 40px;
 }
 /*-------------------[ Headings ]------------------*/
  .mainheading {
@@ -72,4 +72,9 @@
   color: rgb(101, 107, 108);
   font-family: Lucida Grande;
   margin-top: 0;
+}
+a:focus {
+  outline: thin dotted;
+  outline: 2px auto -webkit-focus-ring-color !important;
+  outline-offset: -2px;
 }

@@ -87,50 +87,66 @@
  .home-products {
   margin-top: 40px;
 }
-.home-box{
+.home-box {
   border-radius: 6px;
   border:solid 1px #ddd;
   min-height: 250px;
   padding: 15px;
   background-image: url('../img/noise.png');
 }
-.home-box:hover{
-  box-shadow: 0 0 3px rgba(0,0,0,0.15);
+.home-box:hover {
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.15);
   transition-duration:0.2s;
 }
-
-/*-------------------[ Domain Register : Search Bar ]------------------*/
-.domain-search{
+/*-------------[ Domain Registration : Search Bar ]----------*/
+ .domain-search {
   padding: 40px 0;
   background-color: #eee;
   background-image: url('../img/noise.png');
   border-bottom:solid 1px #ddd;
 }
-.search-wrap{
+.search-wrap {
   max-width: 500px;
   margin:0 auto;
 }
-.domain-box{
+.domain-box {
   padding:10px;
   border-bottom: dashed 1px #ddd;
   font-size: 20px;
-  color: rgb(101, 107, 108);  
+  color: rgb(101, 107, 108);
 }
 .domain-box img {
   width: 50px;
   padding-right:10px;
 }
 
-
-
-
-
-
-
-
-
-
-
+.domainpage-search-box{
+  margin-bottom: 20px
+  
+}
+.domainpage-search-box .wrap input {
+  border:solid 1px #c8c3c0;
+  height: 55PX;
+  box-shadow: none;
+  border-radius: 6px;
+  font-size: 22px;
+  font-weight: 200;
+  letter-spacing:1px;
+  border-right: 0px
+}
+.domainpage-search-box .wrap input:focus {
+  -webkit-box-shadow:none;
+  box-shadow: none;
+}
+.domainpage-search-box .wrap button {
+  height: 55px;
+  border:solid 1px #c8c3c0;
+  border-left: solid 1px #eee;
+  border-radius: 6px;
+  border-bottom-left-radius: 2px !important;
+  border-top-left-radius: 2px 2px !important;
+  min-width: 150px
+}
 
 
 

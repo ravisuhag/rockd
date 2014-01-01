@@ -23,16 +23,32 @@
 <div class="container p-t-40">
   <div class="row">
     <div class="col-md-9">
-      <ul class="nav nav-pills filter-pills">
-        <li><a class="" href="#">All</a>
-        </li>
-        <li><a href="#">Recommended</a>
-        </li>
-        <li><a href="#">Premium</a>
-        </li>
-        <li class="active"><a class="" href="#">Search Again</a>
-        </li>
-      </ul>
+      <div class="domainpage-search-box">
+        <div class="wrap">
+          <form ng-submit="expression">
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="Search again">
+              <input type="submit" style="height:0px; width:0px; border:0px; padding:0px; margin:0px">
+              <div class="input-group-btn">
+                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">.net
+                  <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu pull-right">
+                  <li><a href="#">Action</a>
+                  </li>
+                  <li><a href="#">Another action</a>
+                  </li>
+                  <li><a href="#">Something else here</a>
+                  </li>
+                  <li class="divider"></li>
+                  <li><a href="#">Separated link</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
 
 
       <div class="alert alert-success">
@@ -83,11 +99,15 @@
           </div>
         </div>
         <ul class="nav nav-pills nav-stacked striped">
-          <li class="strip-unlinked">
-            <span class="pull-right glyphicon glyphicon-remove-circle"></span>ravisuhag.com
+          <li>
+            <a href="" class="pull-right">
+              <span class=" glyphicon glyphicon-remove-circle"></span>
+            </a>ravisuhag.com
           </li>
-          <li class="strip-unlinked">
-            <span class="pull-right glyphicon glyphicon-remove-circle"></span>emcodesigner.net
+          <li>
+            <a href="" class="pull-right">
+              <span class=" glyphicon glyphicon-remove-circle"></span>
+            </a>emcodesigner.net
           </li>
         </ul>
         <span class="strip-footer">

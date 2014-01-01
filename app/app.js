@@ -14,6 +14,10 @@ bigrock.config(['$routeProvider', '$locationProvider',
       templateUrl: 'app/views/domain-registration.html',
       controller: 'homeCtrl'
     }).
+    when('/checkout', {
+      templateUrl: 'app/views/checkout.html',
+      controller: 'homeCtrl'
+    }).
     otherwise({
       redirectTo: '/'
     });
