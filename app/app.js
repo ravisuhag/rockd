@@ -18,6 +18,10 @@ bigrock.config(['$routeProvider', '$locationProvider',
       templateUrl: 'app/views/checkout.html',
       controller: 'homeCtrl'
     }).
+    when('/purchasedone', {
+      templateUrl: 'app/views/done.html',
+      controller: 'homeCtrl'
+    }).
     otherwise({
       redirectTo: '/'
     });
