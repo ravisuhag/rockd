@@ -1,5 +1,5 @@
-bigrock.controller('homeCtrl', ['$scope', '$location', 'Search',
-  function($scope, $location, Search) {
+bigrock.controller('homeCtrl', ['$scope', '$location', 'Search','Cart',
+  function($scope, $location, Search, Cart) {
 
     $scope.welcome = "Hello to Big Rock";
     $scope.search = Search;
