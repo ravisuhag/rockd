@@ -27,9 +27,18 @@ bigrock.controller('homeCtrl', ['$scope', '$location', 'Search','Cart',
       } else {
         $scope.nosearch = false;
       }
-
     });
 
+    $scope.isLogin= false;
+    $scope.login= function(){
+      $scope.isLogin= !$scope.isLogin;
+      console.log(isLogin);
+    };
+
+    $scope.isUser= true;
+     $scope.user= function(){
+      $scope.isUser= !$scope.isUser;
+    };
 
 
 }]);
