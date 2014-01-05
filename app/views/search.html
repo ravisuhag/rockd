@@ -15,29 +15,29 @@
                   <div class="domain-selector">
                     <h6>Popular Extensions</h6>
                     <div class="d-row">
-                      <a href="" class="btn btn-default btn-xs " role="button">net</a>
-                      <a href="" class="btn btn-default btn-xs " role="button">com</a>
-                      <a href="" class="btn btn-default btn-xs " role="button">org</a>
-                      <a href="" class="btn btn-default btn-xs active" role="button">biz</a>
-                      <a href="" class="btn btn-default btn-xs " role="button">in</a>
-                      <a href="" class="btn btn-default btn-xs " role="button">pw</a>
-                      <a href="" class="btn btn-default btn-xs " role="button">co.in</a>
-                      <a href="" class="btn btn-default btn-xs " role="button">me</a>
+                      <a  extension href="" class="btn btn-default btn-xs " role="button">net</a>
+                      <a  extension href="" class="btn btn-default btn-xs " role="button">com</a>
+                      <a  extension href="" class="btn btn-default btn-xs " role="button">org</a>
+                      <a  extension href="" class="btn btn-default btn-xs active" role="button">biz</a>
+                      <a  extension href="" class="btn btn-default btn-xs " role="button">in</a>
+                      <a  extension href="" class="btn btn-default btn-xs " role="button">pw</a>
+                      <a  extension href="" class="btn btn-default btn-xs " role="button">co.in</a>
+                      <a  extension href="" class="btn btn-default btn-xs " role="button">me</a>
                     </div>
                     <h6>More Extensions</h6>
                     <div class="d-row">
-                      <a href="" class="btn btn-default btn-xs " role="button">co</a>
-                      <a href="" class="btn btn-default btn-xs " role="button">info</a>
-                      <a href="" class="btn btn-default btn-xs " role="button">name</a>
-                      <a href="" class="btn btn-default btn-xs active" role="button">mobi</a>
-                      <a href="" class="btn btn-default btn-xs " role="button">tv</a>
-                      <a href="" class="btn btn-default btn-xs " role="button">ws</a>
-                      <a href="" class="btn btn-default btn-xs " role="button">bz</a>
-                      <a href="" class="btn btn-default btn-xs " role="button">cc</a>
+                      <a  extension href="" class="btn btn-default btn-xs " role="button">co</a>
+                      <a  extension href="" class="btn btn-default btn-xs " role="button">info</a>
+                      <a  extension href="" class="btn btn-default btn-xs " role="button">name</a>
+                      <a  extension href="" class="btn btn-default btn-xs active" role="button">mobi</a>
+                      <a  extension href="" class="btn btn-default btn-xs " role="button">tv</a>
+                      <a  extension href="" class="btn btn-default btn-xs " role="button">ws</a>
+                      <a  extension href="" class="btn btn-default btn-xs " role="button">bz</a>
+                      <a  extension href="" class="btn btn-default btn-xs " role="button">cc</a>
                     </div>
                     <div class="d-row">
-                      <a href="" class="btn btn-default btn-xs " role="button">net.in</a>
-                      <a href="" class="btn btn-default btn-xs " role="button">org.in</a>
+                      <a  extension href="" class="btn btn-default btn-xs " role="button">net.in</a>
+                      <a  extension href="" class="btn btn-default btn-xs " role="button">org.in</a>
                     </div>
                   </div>
                 </div>
@@ -48,19 +48,19 @@
       </div>
 
 
-      <div class="alert alert-success">
+     <!--  <div class="alert alert-success">
         <a class="close" data-dismiss="alert" aria-hidden="true">&times;</a>
         You have 2 items in your cart
-      </div>
+      </div> -->
 
-      <div class="content-box dash-main">
+      <div ng-hide="noSearch" class="content-box dash-main">
         <div class="h-header">
           Domains you searched for are
         </div>
         <div class="domain-box">
           <div class="row">
             <div class="col-md-6">
-              <img src="assets/img/icon.png" alt="">inspirationedge.com
+              <img src="assets/img/icon.png" alt="">{{search.text}}.com
             </div>
             <div class="col-md-4">
               <select name="" id="" class="selectpicker">
@@ -78,7 +78,7 @@
         <div class="domain-box">
           <div class="row">
             <div class="col-md-6">
-              <img src="assets/img/icon.png" alt="">inspirationedge.com
+              <img src="assets/img/icon.png" alt="">{{search.text}}.com
             </div>
             <div class="col-md-4">
               <select name="" id="" class="selectpicker">
@@ -96,7 +96,7 @@
         <div class="domain-box">
           <div class="row">
             <div class="col-md-6">
-              <img src="assets/img/icon.png" alt="">inspirationedge.com
+              <img src="assets/img/icon.png" alt="">{{search.text}}.com
             </div>
             <div class="col-md-4">
               <select name="" id="" class="selectpicker">
@@ -114,7 +114,7 @@
         <div class="domain-box">
           <div class="row">
             <div class="col-md-6">
-              <img src="assets/img/icon.png" alt="">inspirationedge.com
+              <img src="assets/img/icon.png" alt="">{{search.text}}.com
             </div>
             <div class="col-md-4">
               <select name="" id="" class="selectpicker">
@@ -132,7 +132,7 @@
         <div class="domain-box">
           <div class="row">
             <div class="col-md-6">
-              <img src="assets/img/no-domain.png" alt="">inspirationedge.com
+              <img src="assets/img/no-domain.png" alt="">{{search.text}}.com
             </div>
             <div class="col-md-4">
               <select name="" id="" class="selectpicker" disabled="true">
@@ -155,7 +155,7 @@
         <div class="domain-box">
           <div class="row">
             <div class="col-md-6">
-              <img src="assets/img/icon.png" alt="">inspirationedge.com
+              <img src="assets/img/icon.png" alt="">{{search.text}}.com
             </div>
             <div class="col-md-4">
               <select name="" id="" class="selectpicker">
@@ -173,7 +173,7 @@
         <div class="domain-box">
           <div class="row">
             <div class="col-md-6">
-              <img src="assets/img/icon.png" alt="">inspirationedge.com
+              <img src="assets/img/icon.png" alt="">{{search.text}}.com
             </div>
             <div class="col-md-4">
               <select name="" id="" class="selectpicker">
@@ -191,7 +191,7 @@
         <div class="domain-box">
           <div class="row">
             <div class="col-md-6">
-              <img src="assets/img/icon.png" alt="">inspirationedge.com
+              <img src="assets/img/icon.png" alt="">{{search.text}}.com
             </div>
             <div class="col-md-4">
               <select name="" id="" class="selectpicker">
@@ -209,7 +209,7 @@
         <div class="domain-box">
           <div class="row">
             <div class="col-md-6">
-              <img src="assets/img/icon.png" alt="">inspirationedge.com
+              <img src="assets/img/icon.png" alt="">{{search.text}}.com
             </div>
             <div class="col-md-4">
               <select name="" id="" class="selectpicker">
@@ -227,7 +227,7 @@
         <div class="domain-box">
           <div class="row">
             <div class="col-md-6">
-              <img src="assets/img/no-domain.png" alt="">inspirationedge.com
+              <img src="assets/img/no-domain.png" alt="">{{search.text}}.com
             </div>
             <div class="col-md-4">
               <select name="" id="" class="selectpicker" disabled="true">
