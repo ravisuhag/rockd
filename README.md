@@ -23,17 +23,12 @@ Screens Implemented
 As per rules and guidelines the task was to design the domain purchase flow for the bigrock.in. So i focussed more on that and skipped few things like naviagtion pages, footer (Detailed version) and few other things which were not that important to domain purchase flow.
 
 This workflow contains main following screens
---
- |
- |-- Home Screen
- |-- Search Screen
- |-- Checkout Screen
- |   |
- |   |- SignUp View
- |   |- Signin View
- |   '- Payment View
- |
- '--Payment Success 
+
+
+*  Home Screen
+*  Search Screen
+*  Checkout Screen -> SignUp View + Signin View + Payment View
+*  Payment Success 
 
 
 
