@@ -23,6 +23,9 @@
 	.br-jumbotron span {
 		font-size: 18px
 	}
+	.domain-selector {
+  		max-width: 300px;
+	}
 }
 
 /* iPads (portrait and landscape) ----------- */
@@ -56,3 +59,18 @@
 @media only screen and (-webkit-min-pixel-ratio : 1.5), only screen and (min-pixel-ratio : 1.5) {
 
 }
+
+/*@media only screen and (max-width : 420px) {
+
+	.domain-selector {
+  		max-width: 300px;
+	}
+}
+*/
+
+
+
+
+
+
+
