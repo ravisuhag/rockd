@@ -70,8 +70,21 @@
   font-size: 38px;
   font-weight: normal;
   color: rgb(101, 107, 108);
-  font-family: Lucida Grande;
   margin-top: 0;
+}
+.dotted-seperator {
+  border-top: dashed 1px #ddd;
+}
+.headingtext {
+  margin: 0 auto 40px;
+  font-size: 18px;
+  color: #444;
+  text-align: center;
+  display: block;
+  max-width: 700px;
+  padding: 0 10px;
+  line-height: 30px;
+  font-weight: normal;
 }
 a:focus {
   outline: thin dotted;

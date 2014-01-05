@@ -13,14 +13,16 @@
   height: 55px
 }
 .br-nav .navbar-nav > li > a {
-  color: #E85272;
+  color: rgb(101, 107, 108);
+  font-size: 15px
 }
 .br-nav .navbar-nav > li > a:hover, .br-nav .navbar-nav > li > a:focus {
-  color: #78a30B;
+  color: rgb(106, 151, 63);
 }
 .br-nav .navbar-nav > .active > a, .br-nav .navbar-nav > .active > a:hover, .br-nav .navbar-nav > .active > a:focus {
-  color: #78a30B;
+  color: rgb(106, 151, 63);
   background-color: transparent;
+  font-weight: 500;
 }
 .br-nav .navbar-toggle {
   border-color: transparent;
@@ -34,6 +36,14 @@
 }
 .br-nav .navbar-toggle:hover .icon-bar {
   background-color: #c83252;
+}
+.bg-nav-btn {
+  margin-left: 10px
+}
+@media (min-width: 768px) {
+  .navbar-nav.navbar-right:last-child {
+    margin-right: 0px;
+  }
 }
 /*-------------------[ Home: Jumbotron ]------------------*/
  .br-jumbotron {
@@ -60,7 +70,7 @@
   max-width: 500px;
   padding: 40px 0 20px;
 }
-.search-box .wrap input {
+.search-box .wrap .search-input {
   border:solid 2px rgb(185, 74, 2);
   height: 55PX;
   box-shadow: none;
@@ -68,9 +78,11 @@
   font-size: 22px;
   font-weight: 200;
   letter-spacing:1px;
-  border-right: 0px
+  border-right: 0px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
 }
-.search-box .wrap input:focus {
+.search-box .wrap .search-input:focus {
   -webkit-box-shadow:none;
   box-shadow: none;
 }
@@ -83,6 +95,13 @@
   border-top-left-radius: 2px 2px !important;
   min-width: 100px
 }
+.search-box .input-group-btn > .btn-default:hover,
+.search-box .input-group-btn > .btn-default:focus, 
+.search-box .input-group-btn > .btn-default:active, 
+.search-box .input-group-btn > .btn-default.active, 
+.search-box .input-group-btn > .open .dropdown-toggle.btn-default {
+  border-color: rgb(185, 74, 2) !important;
+}
 /*-------------------[ Home : Products ]------------------*/
  .home-products {
   margin-top: 40px;
@@ -90,7 +109,7 @@
 .home-box {
   border-radius: 6px;
   border:solid 1px #ddd;
-  min-height: 250px;
+  min-height: 270px;
   padding: 15px;
   background-image: url('../img/noise.png');
 }
@@ -98,6 +117,37 @@
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.15);
   transition-duration:0.2s;
 }
+
+.home-box .domain-pricing-box{
+  text-align: center;
+}
+.home-box .domain-pricing-box img{
+  width: 100%;
+  max-width: 400px;
+  margin-bottom: 10px;
+}
+/*-------------[ Footer ]-------------------*/
+ footer {
+  margin-top: 20px;
+  border-top: 1px solid #ddd;
+  background-color: #f7f7f7;
+  border-bottom: 0;
+  font-size: 11px;
+  color: #8789ae;
+  padding: 15px 30px
+}
+footer li, footer ul {
+  display: inline-block;
+  margin-bottom: 0
+}
+footer a {
+  color:#8789ae;
+  padding: 0 10px
+}
+footer a:hover {
+  text-decoration: none;
+}
+
 /*-------------[ Domain Registration : Search Bar ]----------*/
  .domain-search {
   padding: 40px 0;
@@ -119,10 +169,8 @@
   width: 50px;
   padding-right:10px;
 }
-
-.domainpage-search-box{
+.domainpage-search-box {
   margin-bottom: 20px
-  
 }
 .domainpage-search-box .wrap input {
   border:solid 1px #c8c3c0;
@@ -147,13 +195,3 @@
   border-top-left-radius: 2px 2px !important;
   min-width: 150px
 }
-
-
-
-
-
-
-
-
-
-
