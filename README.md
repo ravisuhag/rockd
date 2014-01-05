@@ -9,6 +9,14 @@ Technology Used
 * MVC Framework : AngularJS
 * Compression : Imageoptim
 
+Scalabilty Note
+===============
+* Built with pure MVC from very start with love using AngularJS
+* Best open source mobile framework (Twitter Bootstrap) for Grid implementation
+* OOCSS - Objecte oriented CSS to improve scalabilty and Namespacing
+* Bottom Up Ajax- With th help of Angular complete application is ready to inject any language or library to get it up and running
+
+
 Running Project
 ===============
 You need a http server to run this project. (As anglarJS is using location and routing).
