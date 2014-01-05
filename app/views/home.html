@@ -8,39 +8,39 @@
           <div class="wrap">
             <form ng-submit="formsubmit()">
               <div class="input-group">
-                <input type="text" class="form-control search-input" placeholder="Enter your domain">
+                <input ng-model="search.text" type="text" class="form-control search-input" placeholder="Enter your domain">
                 <input type="submit" style="height:0px; width:0px; border:0px; padding:0px; margin:0px">
                 <div class="input-group-btn">
                   <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">.net
                     <span class="caret"></span>
                   </button>
-                  <div class="dropdown-menu pull-right">
+                  <div class="dropdown-menu dropdown-menu-form pull-right">
                     <div class="domain-selector">
                       <h6>Popular Extensions</h6>
                       <div class="d-row">
-                        <a href="" class="btn btn-default btn-xs " role="button">net</a>
-                        <a href="" class="btn btn-default btn-xs " role="button">com</a>
-                        <a href="" class="btn btn-default btn-xs " role="button">org</a>
-                        <a href="" class="btn btn-default btn-xs active" role="button">biz</a>
-                        <a href="" class="btn btn-default btn-xs " role="button">in</a>
-                        <a href="" class="btn btn-default btn-xs " role="button">pw</a>
-                        <a href="" class="btn btn-default btn-xs " role="button">co.in</a>
-                        <a href="" class="btn btn-default btn-xs " role="button">me</a>
+                        <a extension href=""  ng-model="extensions.net" class="btn btn-default btn-xs " role="button">net</a>
+                        <a extension href=""  ng-model="extensions.com"  class="btn btn-default btn-xs " role="button">com</a>
+                        <a extension href=""  ng-model="extensions.org" class="btn btn-default btn-xs " role="button">org</a>
+                        <a extension href=""  ng-model="extensions.biz" class="btn btn-default btn-xs active" role="button">biz</a>
+                        <a extension href=""  ng-model="extensions.in" class="btn btn-default btn-xs " role="button">in</a>
+                        <a extension href=""  ng-model="extensions.pw" class="btn btn-default btn-xs " role="button">pw</a>
+                        <a extension href=""  ng-model="extensions.co.in" class="btn btn-default btn-xs " role="button">co.in</a>
+                        <a extension href=""  ng-model="extensions.me" class="btn btn-default btn-xs " role="button">me</a>
                       </div>
                       <h6>More Extensions</h6>
                       <div class="d-row">
-                        <a href="" class="btn btn-default btn-xs " role="button">co</a>
-                        <a href="" class="btn btn-default btn-xs " role="button">info</a>
-                        <a href="" class="btn btn-default btn-xs " role="button">name</a>
-                        <a href="" class="btn btn-default btn-xs active" role="button">mobi</a>
-                        <a href="" class="btn btn-default btn-xs " role="button">tv</a>
-                        <a href="" class="btn btn-default btn-xs " role="button">ws</a>
-                        <a href="" class="btn btn-default btn-xs " role="button">bz</a>
-                        <a href="" class="btn btn-default btn-xs " role="button">cc</a>
+                        <a extension href=""  ng-model="extensions.co" class="btn btn-default btn-xs " role="button">co</a>
+                        <a extension href=""  ng-model="extensions.info" class="btn btn-default btn-xs " role="button">info</a>
+                        <a extension href=""  ng-model="extensions.name" class="btn btn-default btn-xs " role="button">name</a>
+                        <a extension href=""  ng-model="extensions.mobi" class="btn btn-default btn-xs active" role="button">mobi</a>
+                        <a extension href=""  ng-model="extensions.tv" class="btn btn-default btn-xs " role="button">tv</a>
+                        <a extension href=""  ng-model="extensions.ws" class="btn btn-default btn-xs " role="button">ws</a>
+                        <a extension href=""  ng-model="extensions.bz" class="btn btn-default btn-xs " role="button">bz</a>
+                        <a extension href=""  ng-model="extensions.cc" class="btn btn-default btn-xs " role="button">cc</a>
                       </div>
                       <div class="d-row">
-                        <a href="" class="btn btn-default btn-xs " role="button">net.in</a>
-                        <a href="" class="btn btn-default btn-xs " role="button">org.in</a>
+                        <a extension href=""  ng-model="extensions.netin" class="btn btn-default btn-xs " role="button">net.in</a>
+                        <a extension href=""  ng-model="extensions.orgin" class="btn btn-default btn-xs " role="button">org.in</a>
                       </div>
                     </div>
                   </div>
@@ -66,7 +66,7 @@
         </p>
 
         <div class="domain-pricing-box">
-            <img src="assets/img/domainprice.png" class="dprice" alt="">
+          <img src="assets/img/domainprice.png" class="dprice" alt="">
         </div>
         <a href="#" class="btn btn-success btn-lg">
             Get Now
@@ -93,46 +93,6 @@
     </div>
   </div>
 </div>
-
-
-<!-- <section class="m-t-20">
-  <div id="carousel-example-captions" class="carousel slide" data-ride="carousel">
-    <ol class="carousel-indicators">
-      <li data-target="#carousel-example-captions" data-slide-to="0" class=""></li>
-      <li data-target="#carousel-example-captions" data-slide-to="1" class=""></li>
-      <li data-target="#carousel-example-captions" data-slide-to="2" class="active"></li>
-    </ol>
-    <div class="carousel-inner">
-      <div class="item">
-        <img src="assets/img/avatar.png">
-        <div class="carousel-caption">
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-        </div>
-      </div>
-      <div src="assets/img/avatar.png" class="item">
-        <img>
-        <div class="carousel-caption">
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </div>
-      </div>
-      <div class="item active">
-        <img src="assets/img/avatar.png">
-        <div class="carousel-caption">
-          <h3>Third slide label</h3>
-          <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-        </div>
-      </div>
-    </div>
-    <a class="left carousel-control" href="#carousel-example-captions" data-slide="prev">
-      <span class="glyphicon glyphicon-chevron-left"></span>
-    </a>
-    <a class="right carousel-control" href="#carousel-example-captions" data-slide="next">
-      <span class="glyphicon glyphicon-chevron-right"></span>
-    </a>
-  </div>
-</section> -->
 
 
 <div class="dotted-seperator m-t-40"></div>

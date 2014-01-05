@@ -22,3 +22,15 @@ bigrock.factory('Domains', ['$scope',
 
 
 }]);
+
+bigrock.factory('Search', ['$scope',
+  function($scope) {
+
+    var Search = function(data) {
+      angular.extend(this, data);
+    };
+
+    Search.extensions = [];
+
+
+}]);
