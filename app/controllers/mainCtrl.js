@@ -1,9 +1,9 @@
-bigrock.controller('homeCtrl', ['$scope', '$location',
-  function($scope, $location) {
+bigrock.controller('homeCtrl', ['$scope', '$location','Search',
+  function($scope, $location, Search) {
 
     $scope.welcome = "Hello to Big Rock";
     $scope.extensions= {};
-    $scope.search= {};
+    $scope.search= Search;
 
     angular.element('.selectpicker').selectpicker();
 
@@ -15,6 +15,7 @@ bigrock.controller('homeCtrl', ['$scope', '$location',
 
     $scope.formsubmit = function() {
       $location.path('/search');
+
     };
 
 }]);

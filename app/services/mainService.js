@@ -1,36 +1,36 @@
-bigrock.factory('Domains', ['$scope',
-  function($scope) {
+// bigrock.factory('Domains', ['$scope',
+//   function($scope) {
 
-    var Domains = function(data) {
-      angular.extend(this, data);
-    };
+//     var Domains = function(data) {
+//       angular.extend(this, data);
+//     };
 
-    Domains.available = [
-      {
-        'name': 'geekfunnel',
-        'type': '.com'
-      },
-      {
-        'name': 'inspirationedge',
-        'type': '.net'
-      },
-      {
-        'name': 'ravisuhag',
-        'type': '.net'
-      }
-    ];
+//     Domains.available = [
+//       {
+//         'name': 'geekfunnel',
+//         'type': '.com'
+//       },
+//       {
+//         'name': 'inspirationedge',
+//         'type': '.net'
+//       },
+//       {
+//         'name': 'ravisuhag',
+//         'type': '.net'
+//       }
+//     ];
 
 
-}]);
+// }]);
 
-bigrock.factory('Search', ['$scope',
-  function($scope) {
-
+bigrock.factory('Search', ['$http',
+  function($http) {
     var Search = function(data) {
       angular.extend(this, data);
     };
 
-    Search.extensions = [];
+    Search.text= "";
 
-
-}]);
+    return Search;
+  }
+]);
