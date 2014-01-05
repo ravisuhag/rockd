@@ -148,7 +148,7 @@ footer a:hover {
   text-decoration: none;
 }
 
-/*-------------[ Domain Registration : Search Bar ]----------*/
+/*-------------[ Search : Search Bar ]----------*/
  .domain-search {
   padding: 40px 0;
   background-color: #eee;
@@ -195,3 +195,86 @@ footer a:hover {
   border-top-left-radius: 2px 2px !important;
   min-width: 150px
 }
+
+
+/*-------------[ Checkout : Cart-domain-box]----------*/
+.checkout-wrap{
+  padding: 15px 15px 0;
+}
+.cart-domain-box{
+  border:dashed 1px #ddd;
+  min-height: 100px;
+  margin-bottom: 15px;
+  padding: 10px;
+  background-color: #fefefe
+}
+.cart-domain-box h3{
+  font-size: 22px;
+  font-weight: normal;
+  margin: -7px 0 6px;
+
+}
+.cart-domain-box h3 img{
+  height: 44px
+}
+.cart-domain-box a.remove{
+  float: right;
+  margin-bottom: -10px
+} 
+.cart-domain-box a .glyphicon-remove-circle{
+  font-size: 20px;
+  color: #999
+}
+.cart-domain-box a .glyphicon-remove-circle:hover{
+  color: #000;
+}
+.cart-domain-box .price{
+  font-size: 25px;
+  color: #666;
+  horizontal-align: right;
+  vertical-align: bottom;
+  padding:0;
+}
+.pricing{
+    width: 100%;
+}
+.pricing td{
+  text-align: right;
+  height: 30px
+}
+.pricing .total{
+  font-size: 20px;
+  line-height: 40px;
+  border-top: solid 1px #ddd;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

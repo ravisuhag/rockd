@@ -10,8 +10,8 @@ bigrock.config(['$routeProvider', '$locationProvider',
       templateUrl: 'app/views/home.html',
       controller: 'homeCtrl'
     }).
-    when('/domain-registration', {
-      templateUrl: 'app/views/domain-registration.html',
+    when('/search', {
+      templateUrl: 'app/views/search.html',
       controller: 'homeCtrl'
     }).
     when('/checkout', {
