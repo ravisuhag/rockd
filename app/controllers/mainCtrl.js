@@ -9,4 +9,10 @@ bigrock.controller('homeCtrl', ['$scope',
       console.log("calling ucntuon");
     };
 
+    $('.dropdown-menu').on('click', function(e) {
+      if ($(this).hasClass('dropdown-menu-form')) {
+        e.stopPropagation();
+      }
+    });
+
 }]);
