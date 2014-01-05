@@ -52,6 +52,11 @@
         <a class="close" data-dismiss="alert" aria-hidden="true">&times;</a>
         You have 2 items in your cart
       </div> -->
+      
+      <div ng-show="nosearch" class="alert alert-success">
+        <a class="close" data-dismiss="alert" aria-hidden="true">&times;</a>
+        You have not searched for any domain. Please Search for your domain above
+      </div>
 
       <div ng-hide="nosearch" class="content-box dash-main">
         <div class="h-header">
@@ -150,12 +155,89 @@
       </div>
       <div class="content-box dash-main m-t-20">
         <div class="h-header">
+          Suggested Domains
+        </div>
+        <div class="domain-box">
+          <div class="row">
+            <div class="col-md-6">
+              <img src="assets/img/icon.png" alt="">{{search.text}}-hello.com
+            </div>
+            <div class="col-md-4">
+              <select name="" id="" class="selectpicker">
+                <option value="1">1 year for 299 Rs.</option>
+                <option value="1">1 year for 299 Rs.</option>
+                <option value="1">1 year for 299 Rs.</option>
+                <option value="1">1 year for 299 Rs.</option>
+              </select>
+            </div>
+            <div class="col-md-2">
+              <a href="" class="btn btn-success">Add</a>
+            </div>
+          </div>
+        </div>
+        <div class="domain-box">
+          <div class="row">
+            <div class="col-md-6">
+              <img src="assets/img/icon.png" alt="">{{search.text}}-rock.net
+            </div>
+            <div class="col-md-4">
+              <select name="" id="" class="selectpicker">
+                <option value="1">1 year for 299 Rs.</option>
+                <option value="1">1 year for 299 Rs.</option>
+                <option value="1">1 year for 299 Rs.</option>
+                <option value="1">1 year for 299 Rs.</option>
+              </select>
+            </div>
+            <div class="col-md-2">
+              <a href="" class="btn btn-success">Add</a>
+            </div>
+          </div>
+        </div>
+        <div class="domain-box">
+          <div class="row">
+            <div class="col-md-6">
+              <img src="assets/img/icon.png" alt="">hi-{{search.text}}.in
+            </div>
+            <div class="col-md-4">
+              <select name="" id="" class="selectpicker">
+                <option value="1">1 year for 299 Rs.</option>
+                <option value="1">1 year for 299 Rs.</option>
+                <option value="1">1 year for 299 Rs.</option>
+                <option value="1">1 year for 299 Rs.</option>
+              </select>
+            </div>
+            <div class="col-md-2">
+              <a href="" class="btn btn-success">Add</a>
+            </div>
+          </div>
+        </div>
+        <div class="domain-box">
+          <div class="row">
+            <div class="col-md-6">
+              <img src="assets/img/icon.png" alt="">{{search.text}}.com
+            </div>
+            <div class="col-md-4">
+              <select name="" id="" class="selectpicker">
+                <option value="1">1 year for 299 Rs.</option>
+                <option value="1">1 year for 299 Rs.</option>
+                <option value="1">1 year for 299 Rs.</option>
+                <option value="1">1 year for 299 Rs.</option>
+              </select>
+            </div>
+            <div class="col-md-2">
+              <a href="" class="btn btn-success">Add</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="content-box dash-main m-t-20">
+        <div class="h-header">
           Premium Domains
         </div>
         <div class="domain-box">
           <div class="row">
             <div class="col-md-6">
-              <img src="assets/img/icon.png" alt="">{{search.text}}.com
+              <img src="assets/img/icon.png" alt="">{{search.text}}Rock.com
             </div>
             <div class="col-md-4">
               <select name="" id="" class="selectpicker">
@@ -173,7 +255,7 @@
         <div class="domain-box">
           <div class="row">
             <div class="col-md-6">
-              <img src="assets/img/icon.png" alt="">{{search.text}}.com
+              <img src="assets/img/icon.png" alt="">{{search.text}}BigRock.com
             </div>
             <div class="col-md-4">
               <select name="" id="" class="selectpicker">
@@ -191,7 +273,7 @@
         <div class="domain-box">
           <div class="row">
             <div class="col-md-6">
-              <img src="assets/img/icon.png" alt="">{{search.text}}.com
+              <img src="assets/img/icon.png" alt="">{{search.text}}MyRock.com
             </div>
             <div class="col-md-4">
               <select name="" id="" class="selectpicker">
@@ -209,7 +291,7 @@
         <div class="domain-box">
           <div class="row">
             <div class="col-md-6">
-              <img src="assets/img/icon.png" alt="">{{search.text}}.com
+              <img src="assets/img/icon.png" alt="">{{search.text}}ROD.in
             </div>
             <div class="col-md-4">
               <select name="" id="" class="selectpicker">
@@ -221,24 +303,6 @@
             </div>
             <div class="col-md-2">
               <a href="" class="btn btn-success">Add</a>
-            </div>
-          </div>
-        </div>
-        <div class="domain-box">
-          <div class="row">
-            <div class="col-md-6">
-              <img src="assets/img/no-domain.png" alt="">{{search.text}}.com
-            </div>
-            <div class="col-md-4">
-              <select name="" id="" class="selectpicker" disabled="true">
-                <option value="1">1 year for 299 Rs.</option>
-                <option value="1">1 year for 299 Rs.</option>
-                <option value="1">1 year for 299 Rs.</option>
-                <option value="1">1 year for 299 Rs.</option>
-              </select>
-            </div>
-            <div class="col-md-2">
-              <a href="" class="btn btn-default" disabled="true">Not Avaliable</a>
             </div>
           </div>
         </div>
